@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+}
+
+.site-header {
+    display: flex;
+    height: 150px;
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+}
+
+.site-logo img  {
+    max-width: 100px;
+}
+
+.site-title h1{
+    font-size: 6em;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+.page-nav {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.page-nav div {
+    flex: 1;
+    text-align: center;
+    display: flex;
+}
+
+.page-nav a {
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    background: #376fff;
+
+}
+
+.page-nav span {
+    width: 100%;
+}
+
+.page-nav a:hover {
+    background: #63e2ff;
+}
+
+.container2 {
+    width: 960px;
+    margin: auto;
+    justify-content: center;
+}
+
+.about-part {
+    padding: 30px 0;
+    background-color: #006db9;
+}
+
+.about-part .container{
+    display: flex;
+}
+
+.about-part-text {
+    flex: 1;
+    color: #f0f8ff;
+    font-size: 1.2em;
+}
+
+.fluder {
+    height: 248.5px;
+}
+
+.center {
+    position: relative;
+    left: 50%;
+    height: 200px;
+    width: 500px;
+    transform: translate(-50%, 0);
+}
+
+.about-part-image {
+    margin-right: 25px;
+    flex: 1;
+}
+.about-part-image img{
+    max-width: 100%;
+}
+
+.about-part-text h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.about-part-text p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.service-part .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-part{
+    background: rgb(55,111,255);
+    background: linear-gradient(0deg, rgba(55,111,255,1) 0%, rgba(0,109,185,1) 100%);
+}
+
+.service-part-card {
+    width: 30%;
+    margin: 0;
+    min-height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #376fff;
+}
+
+.service-part-card h3{
+    text-align: center;
+
+}
+.service-part-card a {
+    color: #f0f8ff;
+    text-decoration: none;
+    font-family: "Playfair Display";
+
+}
+
+.service-part-card-image {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #376fff;
+}
+
+.service-part-card img {
+    max-width: 100%;
+}
+
+
+
+.service-part-card-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.service-part-card-links a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.service-part-card-links span {
+    width: 100%;
+}
+.special-part {
+    display: flex;
+    flex:1;
+    background-image: url(../img/course.jpg);
+    background-size: cover;
+}
+
+.special-part h2 {
+    font-size: 3em;
+}
+
+.special-part a {
+    display: block;
+    color: #f0f8ff; ;
+    background: darkolivegreen;
+    border: 2px solid #6aff2e;
+    font-size: 28px;
+    width: 75%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.special-part-content{
+    background: rgba(255, 255, 255, .5);
+    padding: 40px 60px
+}
+
+/* On mouse-over, add a deeper shadow */
+.service-part-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+
+.container2 {
+    display: flex;
+    padding-top: 100px;
+}
+
+.container2 > {
+    flex: 1;
+
+}
+
+canvas {
+    background-color: #f0f8ff;
+}
+.accordion-body div divd {
+    max-width: 50%;
+}
+
+.accordion-header {
+    max-width: 60%;
+}
+.score {
+    margin-top: center;
+}
+
+h4 {
+    background: #006db9;
+}
+.accordion-collapse{
+    background-color: #006db9;
+}
+
+
+.blue-bg{
+    background-color: #006db9;
+}
+
+#d {
+    background-color: #3aa3ee;
+}
+
+.card-text {
+    height: 112px;
+    font-size: 0.9em;
+}
+
